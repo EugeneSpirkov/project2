@@ -1,0 +1,111 @@
+@media (max-width: 1100px) {
+	.tab-img {
+		display: none;
+	}	
+	.inner-tabs .tabs {
+		width: 100%;
+	    flex-direction: column;
+	}
+		.tabs__caption {
+			display: flex;
+			justify-content: center;
+			margin-bottom: 35px;
+		}
+	.inner-post {
+		flex-direction: column;
+	} 
+		.inner-post .post-img-box {
+			width: 100%;
+		}
+			.inner-post .post-img-box img {
+				width: 60%;
+				margin: 0 auto 35px;	
+			}
+		.inner-post .post-discr-box {
+			width: 100%;
+		}
+}
+
+/*______________________________________________________________________________________________________________________________________________________________*/
+
+
+@media (max-width: 768px) {
+	.head-section-inner {
+		flex-direction: column;
+	}
+		.head-section-inner .head-section-disc {
+			width: 100%;
+		}
+			.head-section-disc__img {
+				margin-top: 35px;
+			}
+			.head-section-disc__link {
+				margin-bottom: 35px;
+			}
+		.head-section-inner .cont {
+			width: 100%;
+			margin-top: 35px;
+		}
+		.cont-form {
+			margin-bottom: 35px;
+		}
+
+	.inner-brand {
+		flex-direction: column;
+		text-align: center;
+	}
+		.inner-brand .brand-discr {
+			width: 100%;
+			margin-top: 25px;
+		}
+		.inner-brand .brand-icons {
+			width: 100%;
+			margin-bottom: 35px;
+		}
+
+	.inner-news {
+	    flex-direction: column;
+	}
+		.inner-news .news-discr-box {
+			width: 100%;
+		}
+		.inner-news .news-img-box {
+			width: 100%;
+		}
+			.inner-news .news-img-box img {
+				margin-top: 35px;
+			}
+
+		.inner-boxes {
+	    	flex-direction: column;
+		}
+		.inner-boxes .inner-boxes__box {
+			width: 100%;
+			margin-bottom: 20px;
+		}
+}
+
+
+/*______________________________________________________________________________________________________________________________________________________________*/
+
+
+
+@media (max-width: 680px) {
+	.nav {
+		display: none;
+	}
+	body .main-header .main-header-inner .toggle-nav {
+		display: block;
+	}
+	.cont-form-inner {
+	    flex-direction: column;
+	}
+		.cont-form-inner .cont-form-inner-box {
+			width: 100%;
+		}
+			.cont-form-inner-box .cont-form-textarea {
+				padding-bottom: 50px;
+			}
+} 
+
+
